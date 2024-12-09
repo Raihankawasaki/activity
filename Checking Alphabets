@@ -1,0 +1,8 @@
+
+character = input("Enter a character: \n")
+
+if ('a' <= character <= 'z') or ('A' <= character <= 'Z'):
+    print("The character" ,character, "is an alphabet.")
+else:
+    print("The character ",character," is not an alphabet.")
+
